@@ -2,6 +2,7 @@ package com.example.practical_2_part_a;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -27,6 +28,21 @@ public class MainActivity extends AppCompatActivity {
         ++mCount;
         if(mShowCount!=null){
             mShowCount.setText(Integer.toString(mCount));
+        }
+        if(mCount>0){
+            findViewById(R.id.button_zero).setBackgroundColor(Color.BLACK);
+        }
+        if(mCount%2==0){
+            view.setBackgroundColor(Color.BLUE);
+        }
+        else
+            view.setBackgroundColor(Color.GREEN);
+    }
+    public void zero(View view){
+        mCount=0;
+        mShowCount.setText(Integer.toString(0));
+        if(mCount==0){
+            view.setBackgroundColor(Color.GRAY);
         }
     }
 
