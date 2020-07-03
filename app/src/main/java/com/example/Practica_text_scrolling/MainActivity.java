@@ -1,12 +1,9 @@
-package com.example.practical_2_part_a;
+package com.example.Practica_text_scrolling;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private int mCount = 0;

@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Practical_13_text_scrolling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../practical_textscrolling" vcs="Git" />
   </component>
 </project>
